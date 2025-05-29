@@ -1,0 +1,59 @@
+<!-- This is a simple blog page with headings, input fields, and textareas -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Level One Assessment</title>
+    
+    <!-- This links the CSS file for styling -->
+    <link rel="stylesheet" href="CSS_Level_One_assesement.css">
+  </head>
+
+  <body>
+    
+    <!-- Main Heading -->
+    <h1>Welcome to Free Blog!</h1>
+
+    <!-- Intro Paragraph -->
+    <div class="intro">
+      <p>Thanks so much for visiting this site!</p>
+    </div>
+
+    <!-- Subheading and list of features -->
+    <h2>What is this site for?</h2>
+    <p>This site can do three things:</p>
+    <ol>
+      <li id="itemone">Take in text input</li>
+      <li>Take in Log In Information</li>
+      <li><a href="http://www.google.com">Take you to Google</a></li>
+    </ol>
+
+    <!-- Textarea for writing a blog post -->
+    <div class="blogtext">
+      <textarea id="textblock" name="name"></textarea>
+    </div>
+
+    <!-- Login form to save blog post -->
+    <h2>Please log in to save your blog post</h2>
+
+    <form class="loginForm" method="get">
+      <!-- Email input -->
+      <label for="mail">Email: </label>
+      <input type="email" id="mail" value="">
+
+      <!-- Password input -->
+      <label for="pass">Password: </label>
+      <input type="password" id="pass" value="">
+
+      <!-- Submit button -->
+      <input type="submit" value="Log In">
+    </form>
+
+    <!-- Feedback section -->
+    <div class="exit">
+      <p>Questions or Comments? Send us feedback here:</p>
+      <textarea name="name" rows="8" cols="80"></textarea>
+    </div>
+
+  </body>
+</html>

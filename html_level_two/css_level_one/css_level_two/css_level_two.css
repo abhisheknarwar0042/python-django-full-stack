@@ -1,0 +1,38 @@
+
+
+h1{
+  font-family: 'Rozha One';
+  text-align: center;
+}
+
+
+.art{
+  margin: auto;
+}
+
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+#one{
+  background-color: #05668D;
+}
+
+#two{
+  background-color: #028090;
+}
+
+#three{
+  background-color: #00A896;
+}
+
+#four{
+  background-color: #02C39A;
+}
+
+#five{
+  background-color: #FF1654;
+}
